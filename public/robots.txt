@@ -1,0 +1,11 @@
+# Continuum — habit tracker
+User-agent: *
+Allow: /
+Allow: /login
+
+# Auth-walled app routes — also emit robots:noindex,nofollow via meta tags.
+Disallow: /app
+Disallow: /insights
+Disallow: /settings
+
+Sitemap: https://continuum.app/sitemap.xml
